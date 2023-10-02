@@ -37,6 +37,6 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git commit -m "[token-bot] tokens generated 🥳"
-        #  git push
+          git push
 
       - run: echo "This job's status is ${{ job.status }}."
