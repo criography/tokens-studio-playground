@@ -1,6 +1,14 @@
 name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: [push]
+on:
+  push:
+    branches:
+      - 'figma'
+      - 'feat/**'
+      - 'feature/**'
+      - 'bug/**'
+      - 'hotfix/**'
+
 jobs:
   tokens-build:
     if: ${{ !contains(github.event.head_commit.message, '[token-bot] tokens generated 🥳') }}
