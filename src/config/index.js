@@ -1,4 +1,4 @@
-const StyleDictionary = require('style-dictionary').extend({
+module.exports = {
   source: ['src/tokens/**/*.json'],
   platforms: {
     scss: {
@@ -8,8 +8,14 @@ const StyleDictionary = require('style-dictionary').extend({
         destination: 'variables.scss',
         format: 'scss/variables'
       }]
+    },
+    css: {
+      transformGroup: 'css',
+      buildPath: 'dist/',
+      files: [{
+        destination: 'css.css',
+        format: 'css/variables'
+      }]
     }
   }
-});
-
-StyleDictionary.buildAllPlatforms();
+}
