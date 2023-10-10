@@ -1,28 +1,5 @@
 {
-  "global": {
-    "5": {
-      "value": "5",
-      "type": "borderWidth"
-    },
-    "10": {
-      "value": "10",
-      "type": "borderRadius"
-    },
-    "pinky": {
-      "value": "#ed24ed",
-      "type": "color"
-    },
-    "sand": {
-      "value": "#fff196",
-      "type": "color"
-    },
-    "comic": {
-      "value": {
-        "fontFamily": "Comic Sans MS"
-      },
-      "type": "typography"
-    }
-  },
+  "global": {},
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
