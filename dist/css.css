@@ -1,8 +1,11 @@
 /**
  * Do not edit directly
- * Generated on Tue, 10 Oct 2023 10:54:39 GMT
+ * Generated on Tue, 10 Oct 2023 11:07:59 GMT
  */
 
 :root {
-
+  --global-yellow: #f4fa00;
+  --global-slate: #1f1f1f;
+  --global-radius-12: 12;
+  --global-opacity-7: 0.7;
 }

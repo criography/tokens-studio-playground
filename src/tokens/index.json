@@ -1,5 +1,22 @@
 {
-  "global": {},
+  "global": {
+    "yellow": {
+      "value": "#f4fa00",
+      "type": "color"
+    },
+    "slate": {
+      "value": "#1f1f1f",
+      "type": "color"
+    },
+    "radius-12": {
+      "value": "12",
+      "type": "borderRadius"
+    },
+    "opacity-7": {
+      "value": "0.7",
+      "type": "opacity"
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
